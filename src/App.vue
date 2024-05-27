@@ -1,32 +1,38 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { /*RouterLink, */ RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from 'firebase/app'
+// import { getAnalytics } from 'firebase/analytics'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAcSLElcSMkuVSt7TtD1sk7m7nnwd4ruCE",
-  authDomain: "gapjot-1.firebaseapp.com",
-  projectId: "gapjot-1",
-  storageBucket: "gapjot-1.appspot.com",
-  messagingSenderId: "551421872019",
-  appId: "1:551421872019:web:1813e970f3896998a30a66",
-  measurementId: "G-Y034XVNSW4"
-};
+// const firebaseConfig = {
+//   apiKey: 'AIzaSyAcSLElcSMkuVSt7TtD1sk7m7nnwd4ruCE',
+//   authDomain: 'gapjot-1.firebaseapp.com',
+//   projectId: 'gapjot-1',
+//   storageBucket: 'gapjot-1.appspot.com',
+//   messagingSenderId: '551421872019',
+//   appId: '1:551421872019:web:1813e970f3896998a30a66',
+//   measurementId: 'G-Y034XVNSW4'
+// }
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// const app = initializeApp(firebaseConfig)
+// const analytics = getAnalytics(app)
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="https://i.kym-cdn.com/entries/icons/original/000/018/489/nick-young-confused-face-300x256-nqlyaa.jpg" width="125" height="125" />
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="https://i.kym-cdn.com/entries/icons/original/000/018/489/nick-young-confused-face-300x256-nqlyaa.jpg"
+      width="125"
+      height="125"
+    />
 
     <div class="wrapper">
       <HelloWorld msg="Personal Blog of Gappp" />
